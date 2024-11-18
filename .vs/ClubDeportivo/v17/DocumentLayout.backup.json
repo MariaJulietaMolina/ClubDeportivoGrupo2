@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\WIN10\\source\\repos\\ClubDeportivoGrupo2\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{18C8A72A-8510-44F2-A1BA-E51DF72493A2}|ClubDeportivo\\ClubDeportivo.csproj|c:\\users\\win10\\source\\repos\\clubdeportivogrupo2\\clubdeportivo\\actividades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18C8A72A-8510-44F2-A1BA-E51DF72493A2}|ClubDeportivo\\ClubDeportivo.csproj|solutionrelative:clubdeportivo\\actividades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18C8A72A-8510-44F2-A1BA-E51DF72493A2}|ClubDeportivo\\ClubDeportivo.csproj|c:\\users\\win10\\source\\repos\\clubdeportivogrupo2\\clubdeportivo\\actividades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{18C8A72A-8510-44F2-A1BA-E51DF72493A2}|ClubDeportivo\\ClubDeportivo.csproj|solutionrelative:clubdeportivo\\actividades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18C8A72A-8510-44F2-A1BA-E51DF72493A2}|ClubDeportivo\\ClubDeportivo.csproj|C:\\Users\\WIN10\\source\\repos\\ClubDeportivoGrupo2\\clubdeportivo\\newmemberform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{18C8A72A-8510-44F2-A1BA-E51DF72493A2}|ClubDeportivo\\ClubDeportivo.csproj|solutionrelative:clubdeportivo\\newmemberform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18C8A72A-8510-44F2-A1BA-E51DF72493A2}|ClubDeportivo\\ClubDeportivo.csproj|c:\\users\\win10\\source\\repos\\clubdeportivogrupo2\\clubdeportivo\\newmemberform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18C8A72A-8510-44F2-A1BA-E51DF72493A2}|ClubDeportivo\\ClubDeportivo.csproj|solutionrelative:clubdeportivo\\newmemberform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +39,56 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NewMemberForm.cs",
+              "DocumentMoniker": "C:\\Users\\WIN10\\source\\repos\\ClubDeportivoGrupo2\\ClubDeportivo\\NewMemberForm.cs",
+              "RelativeDocumentMoniker": "ClubDeportivo\\NewMemberForm.cs",
+              "ToolTip": "C:\\Users\\WIN10\\source\\repos\\ClubDeportivoGrupo2\\ClubDeportivo\\NewMemberForm.cs",
+              "RelativeToolTip": "ClubDeportivo\\NewMemberForm.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAGAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T17:23:36.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NewMemberForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\WIN10\\source\\repos\\ClubDeportivoGrupo2\\ClubDeportivo\\NewMemberForm.cs",
+              "RelativeDocumentMoniker": "ClubDeportivo\\NewMemberForm.cs",
+              "ToolTip": "C:\\Users\\WIN10\\source\\repos\\ClubDeportivoGrupo2\\ClubDeportivo\\NewMemberForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ClubDeportivo\\NewMemberForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T15:23:44.789Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Actividades.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\WIN10\\source\\repos\\ClubDeportivoGrupo2\\ClubDeportivo\\Actividades.cs",
+              "RelativeDocumentMoniker": "ClubDeportivo\\Actividades.cs",
+              "ToolTip": "C:\\Users\\WIN10\\source\\repos\\ClubDeportivoGrupo2\\ClubDeportivo\\Actividades.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ClubDeportivo\\Actividades.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T14:14:39.369Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Actividades.cs",
+              "DocumentMoniker": "C:\\Users\\WIN10\\source\\repos\\ClubDeportivoGrupo2\\ClubDeportivo\\Actividades.cs",
+              "RelativeDocumentMoniker": "ClubDeportivo\\Actividades.cs",
+              "ToolTip": "C:\\Users\\WIN10\\source\\repos\\ClubDeportivoGrupo2\\ClubDeportivo\\Actividades.cs",
+              "RelativeToolTip": "ClubDeportivo\\Actividades.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAAwKcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T12:17:45.885Z",
+              "EditorCaption": ""
             }
           ]
         }

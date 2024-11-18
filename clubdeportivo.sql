@@ -30,7 +30,31 @@ CREATE TABLE socio (
     fechaCobro DATE NOT NULL
 );
 
+INSERT INTO socio (nombre, apellido, documento, fecha_nacimiento, genero, email, fechaCobro)
+VALUES 
+('Juan', 'Pérez', '12345678', '1985-07-15', 'Masculino', 'juan.perez@example.com', '2024-11-01'),
+('María', 'González', '87654321', '1990-05-20', 'Femenino', 'maria.gonzalez@example.com', '2024-11-10'),
+('Carlos', 'López', '11223344', '1988-03-30', 'Masculino', 'carlos.lopez@example.com', '2024-11-15'),
+('Laura', 'Martínez', '55667788', '1995-12-10', 'Femenino', 'laura.martinez@example.com', '2024-11-20'),
+('Ana', 'Rodríguez', '99887766', '2000-01-25', 'Femenino', 'ana.rodriguez@example.com', '2024-12-01');
 
 
 SELECT * FROM socio;
+
+
+-- Crear la tabla actividades
+CREATE TABLE actividades (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre_actividad VARCHAR(100) NOT NULL,
+    horario_actividad TIME NOT NULL,
+    cupo INT NOT NULL CHECK (cupo <= 15),
+    dni_inscritos TEXT -- Almacena DNIs inscritos como una lista separada por comas
+);
+
+-- Insertar ejemplo de actividad
+INSERT INTO actividades (nombre_actividad, horario_actividad, cupo, dni_inscritos) 
+VALUES ('Fútbol', '18:00:00', 15, '');
+
+INSERT INTO actividades (nombre_actividad, horario_actividad, cupo, dni_inscritos) 
+VALUES ('Basquet', '19:00:00', 15, '');
 

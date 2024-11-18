@@ -142,7 +142,7 @@ namespace ClubDeportivo
 
                 dataGridView1.DataSource = dataTable;
 
-                // Aplicar el estilo de fuente
+                // Aplica el estilo de fuente
                 dataGridView1.DefaultCellStyle.Font = new Font("Arial Rounded MT Bold", 12);
                 dataGridView1.ColumnHeadersDefaultCellStyle.Font = new Font("Arial Rounded MT Bold", 12, FontStyle.Bold);
 
@@ -160,8 +160,8 @@ namespace ClubDeportivo
             try
             {
                 connectionDB.Open();
-                // Seleccionamos únicamente las columnas necesarias
-                string query = "SELECT nombre, apellido, documento AS DNI, fecha_nacimiento, fechaCobro FROM socio";
+                
+                string query = "SELECT nombre, apellido,id, documento AS DNI,  fecha_nacimiento, genero, email, fechaCobro FROM socio";
                 MySqlCommand command = new MySqlCommand(query, connectionDB);
 
                 MySqlDataAdapter adapter = new MySqlDataAdapter(command);
