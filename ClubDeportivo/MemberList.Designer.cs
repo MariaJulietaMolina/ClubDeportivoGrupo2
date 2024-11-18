@@ -28,13 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            DataGridView dataGridView1;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MemberList));
             lblWelcome = new Label();
-            dataGridView1 = new DataGridView();
             lblDoc = new Label();
             txtDocument = new TextBox();
             btnClean = new Button();
             button1 = new Button();
+            dataGridView1 = new DataGridView();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -118,6 +119,7 @@
             AutoScaleDimensions = new SizeF(15F, 37F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(917, 436);
             Controls.Add(button1);
             Controls.Add(btnClean);
